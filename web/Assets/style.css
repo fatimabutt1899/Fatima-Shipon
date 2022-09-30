@@ -1,0 +1,73 @@
+*{
+    margin: 4px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    body {
+      background-color: rgb(3, 119, 158);
+    }
+  }
+
+body{
+    background-color: coral;
+}
+
+
+
+header{
+    position: fixed;
+    width: 95%;
+    background-color: rgb(202, 199, 199);
+    
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#header-img{
+    height: 80px;
+}
+
+#nav-bar{
+    float: right;
+
+}
+
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  margin-top: 150px
+
+}
+
+.flex-container > section {
+    background-color: #f1f1f1;
+    justify-content: center;
+  }
+
+.features{
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+    
+}
+
+.how-it-work{
+    background-color: rgb(255, 0, 64);
+    height: 50px;
+    width: 100%;
+}
+
+.pricing{
+    background-color: rgb(0, 255, 34);
+    height: 50px;
+    width: 100%;
+
+}
